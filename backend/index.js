@@ -18,7 +18,7 @@ let app = express();
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: ["https://onecart-frontendone-bkh9.onrender.com","http://localhost:5174"],
+    origin: ["https://onecart-frontendone-bkh9.onrender.com","https://onecart-admin-od2z.onrender.com"],
     credentials:true
 }))
 
